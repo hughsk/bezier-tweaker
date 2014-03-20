@@ -1,0 +1,42 @@
+{
+  "name": "bezier-tweaker",
+  "description": "Small UI for adjusting 1-dimensional bezier curves",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "clamp": "0.0.0",
+    "debounce": "0.0.3",
+    "bezier": "^0.1.0",
+    "events": "^1.0.0",
+    "svg-line": "0.0.0"
+  },
+  "devDependencies": {
+    "beefy": "^1.1.0",
+    "browserify": "^3.33.0"
+  },
+  "scripts": {
+    "start": "beefy example.js:bundle.js",
+    "prepublish": "browserify example.js -o bundle.js"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "homepage": "http://hughsk.github.io/bezier-tweaker",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/bezier-tweaker"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/bezier-tweaker/issues"
+  },
+  "keywords": [
+    "bezier",
+    "spline",
+    "tweak",
+    "easing",
+    "parameter",
+    "adjust",
+    "ui",
+    "animation",
+    "tool"
+  ]
+}
